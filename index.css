@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,400;0,500;0,600;1,400&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400&family=JetBrains+Mono:wght@400;500&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Playfair Display", Georgia, serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+
+  --color-terracotta: #F27D26;
+  --color-ochre: #C9A66B;
+  --color-sand: #E0D8D0;
+  --color-charcoal: #0a0502;
+}
+
+/* Immersive UI Specific Classes */
+.immersive-background {
+  background: radial-gradient(circle at 50% 20%, #3a1c08 0%, #0a0502 70%);
+}
+
+.grid-dots {
+  background-image: radial-gradient(#F27D26 1px, transparent 1px);
+  background-size: 40px 40px;
+}
+
+.glow-title {
+  text-shadow: 0 0 25px rgba(242, 125, 38, 0.45);
+}
+
+.glow-text-gold {
+  text-shadow: 0 0 15px rgba(201, 166, 107, 0.3);
+}
+
+/* Custom scrollbar hider for category selectors */
+.scrollbar-none::-webkit-scrollbar {
+  display: none;
+}
+.scrollbar-none {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}

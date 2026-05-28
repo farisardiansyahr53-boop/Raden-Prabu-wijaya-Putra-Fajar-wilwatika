@@ -1,0 +1,6 @@
+{
+  "name": "Raden Prabu Wijaya Putra: Fajar Wilwatikta",
+  "description": "Game novel visual sinematik interaktif tentang awal mulanya pendirian Kerajaan Majapahit oleh Raden Wijaya, dilengkapi dengan ensiklopedia sejarah tanah Jawa dan sistem sound synthesizer gamelan offline.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
